@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="挂载到主线程">
+      <UniqueIdentifier>{35e9dc18-bbf7-4ee9-a7b6-d8907cbf522c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="功能和基址">
+      <UniqueIdentifier>{4549c51a-764a-4892-887f-25c6b4f94e30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="主窗口类">
+      <UniqueIdentifier>{5de9811a-0b42-4f52-81a8-cc1784eaf4e0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DLLProc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWndDlg.cpp">
+      <Filter>主窗口类</Filter>
+    </ClCompile>
+    <ClCompile Include="HandleDataExChange.cpp">
+      <Filter>挂载到主线程</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>功能和基址</Filter>
+    </ClCompile>
+    <ClCompile Include="allFunction.cpp">
+      <Filter>功能和基址</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DLLProc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainWndDlg.h">
+      <Filter>主窗口类</Filter>
+    </ClInclude>
+    <ClInclude Include="HandleDataExChange.h">
+      <Filter>挂载到主线程</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>功能和基址</Filter>
+    </ClInclude>
+    <ClInclude Include="baseAddr.h">
+      <Filter>功能和基址</Filter>
+    </ClInclude>
+    <ClInclude Include="allFunction.h">
+      <Filter>功能和基址</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DLLProc.def">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="res\DLLProc.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DLLProc.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
